@@ -18,12 +18,12 @@ except ImportError:
 init(autoreset=True)
 
 # Replace these placeholders with your actual API keys and endpoints
-CRYPTO_API_KEY = 'your_crypto_api_key'
-TELEGRAM_BOT_TOKEN = 'your_telegram_bot_token'
+CRYPTO_API_KEY = 'your_crypto_api_key' # Place your crypto api key here
+TELEGRAM_BOT_TOKEN = 'your_telegram_bot_token' # Place your bot token here
 
 # Placeholder for your cryptocurrency trading API
 def buy_token(user_id, amount, currency):
-    # Implement your logic to execute a buy order
+    # Implement your logic to execute a buy order by visiting the buy website from which you want to buy crypto
     pass
 
 def start(update: Update, context: CallbackContext) -> None:
