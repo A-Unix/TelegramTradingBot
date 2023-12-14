@@ -1,5 +1,5 @@
 # TelegramTradingBot
- An Telegram trading bot
+ A Telegram trading bot
 
 ## Installation Instructions
 
